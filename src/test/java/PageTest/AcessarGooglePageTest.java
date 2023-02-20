@@ -45,6 +45,7 @@ public class AcessarGooglePageTest {
     public void acessandoGoogle() {
 
         acessarGooglePage = new AcessarGooglePage(driver);
+        acessarGooglePage.escrita(acessarGooglePage.pesquisaGoogle, "Isso é um teste");
 
     }
 
