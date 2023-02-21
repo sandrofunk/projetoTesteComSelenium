@@ -48,8 +48,7 @@ public class AcessarGooglePageTest {
         acessarGooglePage.escrever(acessarGooglePage.escreverGoogle, "Isso é um teste");
         acessarGooglePage.clicar(acessarGooglePage.pesquisarGoogle);
         acessarGooglePage.clicar(acessarGooglePage.pesquisarImagemGoogle);
-
-
+        
     }
 
 }
