@@ -45,10 +45,13 @@ public class AcessarGooglePageTest {
     public void acessandoGoogle() {
 
         acessarGooglePage = new AcessarGooglePage(driver);
-        acessarGooglePage.escrever(acessarGooglePage.escreverGoogle, "Isso é um teste");
+        acessarGooglePage.escrever(acessarGooglePage.escreverGoogle, "Quality Assurance");
         acessarGooglePage.clicar(acessarGooglePage.pesquisarGoogle);
         acessarGooglePage.clicar(acessarGooglePage.pesquisarImagemGoogle);
-        
+        acessarGooglePage.clicar(acessarGooglePage.pesquisarNoticiasGoogle);
+        acessarGooglePage.clicar(acessarGooglePage.pesquisarVideosGoogle);
+        acessarGooglePage.clicar(acessarGooglePage.pesquisarLivrosGoogle);
+
     }
 
 }

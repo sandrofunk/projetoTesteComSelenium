@@ -23,6 +23,15 @@ public class AcessarGooglePage {
     @FindBy ( xpath= "//a[contains(text(),'Imagens')]" )
     public WebElement pesquisarImagemGoogle;
 
+    @FindBy ( xpath = "//a[contains(text(),'Notícias')]" )
+    public WebElement pesquisarNoticiasGoogle;
+
+    @FindBy ( xpath = "//a[contains(text(),'Vídeos')]" )
+    public WebElement pesquisarVideosGoogle;
+
+    @FindBy ( xpath = "//a[contains(text(),'Livros')]" )
+    public WebElement pesquisarLivrosGoogle;
+
     public AcessarGooglePage(WebDriver driver) {
 
         this.driver = driver;
